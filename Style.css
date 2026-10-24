@@ -1,0 +1,183 @@
+
+body {
+    background-color: #17191C;
+    color: #E5E5E5;
+}
+
+
+/* ENCABEZADO */
+
+#encabezado {
+    background-color: #22252A;
+    padding: 20px;
+    text-align: center;
+}
+
+#titulo {
+    color: white;
+}
+
+#subtitulo {
+    color: #BFC3C9;
+}
+
+
+/* MENU */
+
+#menu {
+    background-color: #303339;
+    padding: 12px;
+}
+
+a {
+    color: #E5E5E5;
+}
+
+
+/* CONTENIDO GENERAL */
+
+#contenido {
+    padding: 20px;
+}
+
+
+/* REVIEWS */
+
+#bienvenido {
+    color: #C77B85;
+}
+
+.tarjeta {
+    background-color: #272A2F;
+    padding: 15px;
+    margin: 10px;
+    width: 250px;
+    border: 1px solid #393C42;
+}
+
+table {
+    width: 100%;
+}
+
+td {
+    width: 33%;
+}
+
+.tarjeta img {
+    width: 70%;
+}
+
+
+/* NOTICIAS */
+
+.seccion {
+    color: #C77B85;
+}
+
+.titulo-noticias {
+    color: #FFFFFF;
+}
+
+.introduccion-noticias {
+    color: #BFC3C9;
+}
+
+.etiqueta {
+    color: #C77B85;
+}
+
+
+/* NOTICIA PRINCIPAL */
+
+.noticia-principal {
+    background-color: #22252A;
+    padding: 25px;
+    margin: 20px;
+    border: 1px solid #C77B85;
+}
+
+.noticia-principal h2 {
+    color: #FFFFFF;
+}
+
+
+/* NOTICIAS SECUNDARIAS */
+
+.noticia-secundaria {
+    background-color: #22252A;
+    padding: 15px;
+    margin: 10px;
+    border: 1px solid #393C42;
+}
+
+.noticia-secundaria h3 {
+    color: #FFFFFF;
+}
+
+.noticia-secundaria p {
+    color: #BFC3C9;
+}
+
+
+/* OPINION */
+
+.opinion {
+    background-color: #303339;
+    padding: 25px;
+    margin: 20px;
+    border: 1px solid #C77B85;
+}
+
+.opinion h2 {
+    color: #FFFFFF;
+}
+
+.opinion p {
+    color: #E5E5E5;
+}
+
+
+/* PIE DE PAGINA */
+
+#pie {
+    background-color: #22252A;
+    padding: 15px;
+    text-align: center;
+}
+
+/* FUENTES */   
+body {
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+#titulo {
+    font-family: 'Rajdhani', sans-serif;
+}
+
+#bienvenido {
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.seccion {
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.titulo-noticias {
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.noticia-principal h2 {
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.noticia-secundaria h3 {
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.etiqueta {
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.opinion h2 {
+    font-family: 'Rajdhani', sans-serif;
+}
