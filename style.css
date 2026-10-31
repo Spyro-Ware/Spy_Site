@@ -11,6 +11,7 @@ body {
     background-color: #22252A;
     padding: 20px;
     text-align: center;
+    border-radius: 10px;  
 }
 
 #titulo {
@@ -48,11 +49,19 @@ a {
 }
 
 .tarjeta {
-    background-color: #272A2F;
-    padding: 15px;
-    margin: 10px;
+    
+    background-color: rgba(39, 42, 47, 0.85); 
+    backdrop-filter: blur(8px); 
+    padding: 20px;
+    margin: 15px;
     width: 250px;
-    border: 1px solid #393C42;
+    border: 1px solid rgba(57, 60, 66, 0.6);
+    border-radius: 12px;
+}
+
+.tarjeta:hover {
+    transform: translateY(-8px) scale(1.02); 
+    box-shadow: 0 15px 30px rgba(199, 123, 133, 0.25); 
 }
 
 table {
@@ -94,6 +103,7 @@ td {
     padding: 25px;
     margin: 20px;
     border: 1px solid #C77B85;
+    border-radius: 8px;
 }
 
 .noticia-principal h2 {
@@ -108,6 +118,7 @@ td {
     padding: 15px;
     margin: 10px;
     border: 1px solid #393C42;
+    border-radius: 8px;
 }
 
 .noticia-secundaria h3 {
@@ -126,6 +137,7 @@ td {
     padding: 25px;
     margin: 20px;
     border: 1px solid #C77B85;
+    border-radius: 8px;
 }
 
 .opinion h2 {
@@ -143,6 +155,7 @@ td {
     background-color: #22252A;
     padding: 15px;
     text-align: center;
+    border-radius: 10px;  
 }
 
 /* FUENTES */   
