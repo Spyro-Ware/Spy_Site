@@ -4,6 +4,25 @@ body {
     color: #E5E5E5;
 }
 
+/* MEDIA PA´ CELULARES WOW */
+@media (max-width: 768px) {
+
+    .contenedor-tarjetas {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .tarjeta {
+        width: 85%;
+        margin: 10px 0;
+    }
+
+    #contacto {
+        width: 90%;
+        padding: 15px;
+    }
+
+}
 
 /* ENCABEZADO */
 
